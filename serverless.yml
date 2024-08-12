@@ -1,0 +1,57 @@
+service: resume-service
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-west-2
+  stage: dev
+  memorySize: 512
+  timeout: 10
+  environment:
+    NODE_ENV: production
+
+functions:
+  api:
+    handler: handler.main
+    events:
+      - http:
+          path: /
+          method: get
+      - http:
+          path: /{proxy+}
+          method: any
+
+package:
+  exclude:
+    - node_modules/**
+    - .git/**
+    - .vscode/**
+    - README.md
+    - .DS_Store
+
+resources:
+  Resources:
+    ApiGatewayCloudWatchLogsRole:
+      Type: "AWS::IAM::Role"
+      Properties:
+        RoleName: "ApiGatewayCloudWatchLogsRole"
+        AssumeRolePolicyDocument:
+          Version: "2012-10-17"
+          Statement:
+            - Effect: "Allow"
+              Principal:
+                Service:
+                  - "apigateway.amazonaws.com"
+              Action:
+                - "sts:AssumeRole"
+        Policies:
+          - PolicyName: "root"
+            PolicyDocument:
+              Version: "2012-10-17"
+              Statement:
+                - Effect: "Allow"
+                  Action:
+                    - "logs:CreateLogGroup"
+                    - "logs:CreateLogStream"
+                    - "logs:PutLogEvents"
+                  Resource: "*"
