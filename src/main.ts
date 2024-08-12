@@ -8,7 +8,7 @@ import VueEasyLightbox from 'vue-easy-lightbox';
 import './assets/css/main.css';
 
 import enUS from './assets/i18n/en-US.json';
-import ptBR from './assets/i18n/pt-BR.json';
+import ptBR from './assets/i18n/en-US.json';
 
 type MessageSchema = typeof enUS;
 

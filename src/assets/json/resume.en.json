@@ -1,21 +1,21 @@
 {
   "profile": {
     "name": "Brendan Copley",
-    "job": "Co-chair, Bill & Melinda Gates Foundation",
+    "job": "Lead DevOps Software Engineer",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "Co-chair of the Bill & Melinda Gates Foundation. Founder of Breakthrough Energy. Co-founder of Microsoft. Voracious reader. Avid traveler. Active blogger.",
+    "aboutMe": "DevOps-Focused Full Stack Developer with with over 10 years of experience in leading high-impact software development and cloud infrastructure projects. Proud father and dedicated leader, adept at driving large-scale deployments, optimizing CI/CD pipelines, and implementing cutting-edge solutions across AWS and Azure environments. Recognized for successfully managing cross-functional teams and delivering award-winning projects. Passionate about mentoring, fostering collaboration, and continuously improving development processes to achieve business objectives.",
     "socialNetwork": [
       {
-        "name": "Twitter",
-        "url": "https://twitter.com/billgates"
+        "name": "github",
+        "url": "https://github.com/BrendanEthika"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/williamhgates"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com/thisisbillgates/"
+        "name": "kaggle",
+        "url": "https://www.kaggle.com/brendanco"
       }
     ]
   },
@@ -23,28 +23,18 @@
     "icon": "DocumentTextIcon",
     "name": "PDF & DOC",
     "value": "Brendan Copley",
-    "url": "https://dl.lanno.dev/share/GppwRUSq0tOPCjWy/files/703b5c3a-ff83-4ce9-8607-fc86d0ac09eb"
+    "url": "assets/1_Resume-Brendan-Copley.pdf"
   },
   "information": [
     {
       "icon": "EnvelopeIcon",
       "name": "Mail address",
-      "value": "billgates@microsoft.com"
-    },
-    {
-      "icon": "CakeIcon",
-      "name": "66 Years old",
-      "value": "28 october 1955"
+      "value": "brendan@brendancopley.com"
     },
     {
       "icon": "DevicePhoneMobileIcon",
       "name": "Phone Number",
-      "value": "+1 (800) 642 7676"
-    },
-    {
-      "icon": "ComputerDesktopIcon",
-      "name": "Work type",
-      "value": "Remote or Fulltime"
+      "value": "+1 (949) 288 8822"
     }
   ],
   "skill": [
@@ -80,70 +70,208 @@
       "level": "Native Language"
     },
     {
+      "name": "Spanish",
+      "code": "en-US",
+      "flag": "svg/mexico.svg",
+      "level": "Intermediate"
+    },
+    {
       "name": "Portuguese",
       "code": "en-US",
       "flag": "svg/brazil.svg",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Arabic",
+      "code": "en-US",
+      "flag": "svg/egypt.svg",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Irish",
+      "code": "en-US",
+      "flag": "svg/ireland.svg",
       "level": "Intermediate"
     }
   ],
   "experience": [
     {
-      "job": "Bill & Melinda Gates Foundation",
-      "company": "Co-chair",
-      "companyLogo": "img/company/co-chair.jpg",
-      "location": "New York",
-      "workType": "Fulltime",
-      "start": "jan 2000",
-      "end": "Current",
-      "description": "Guided by the belief that every life has equal value, the Bill & Melinda Gates Foundation works to help all people lead healthy, productive lives. In developing countries, it focuses on improving people’s health and giving them the chance to lift themselves out of hunger and extreme poverty. In the United States, it seeks to ensure that all people—especially those with the fewest resources—have access to the opportunities they need to succeed in school and life. Based in Seattle, Washington, the foundation is led by CEO Mark Suzman, under the direction of co-chairs Brendan Copley and Melinda French Gates and the board of trustees."
+        "job": "Lead DevOps Software Engineer",
+        "company": "Radfab Corporation",
+        "companyLogo": "img/company/radfab-corporation.jpg",
+        "location": "Remote",
+        "workType": "Consultant",
+        "start": "Mar 2023",
+        "end": "Present",
+        "description": "Worked with Amazon Prime Video and Bethesda during the Fallout TV series launch, deploying a video game with an on-prem MongoDb server for leaderboard management at the 2023 Brazilian Comic-Con CCXP. Delivered high-impact security by gathering and analyzing SOC2 business requirements in an Agile environment. Successfully integrated Algolia and GCP Google AI with Vue.js for a search similar to 'elasticsearch'. Collaborated on diverse development projects, including e-commerce sites using AWS CloudFormation, Docker containers, and AWS EKS Kubernetes."
     },
     {
-      "job": "Breakthrough Energy",
-      "company": "Founder",
-      "companyLogo": "img/company/founder.jpg",
-      "location": "New York",
-      "workType": "Fulltime",
-      "start": "jan 2015",
-      "end": "Current",
-      "description": "Breakthrough Energy is dedicated to helping humanity avoid a climate disaster. Through investment vehicles, philanthropic programs, policy advocacy, and other activities, we’re committed to scaling the technologies we need to reach net-zero emissions by 2050."
+        "job": "Senior Software Engineer – DevOps",
+        "company": "CarParts.com",
+        "companyLogo": "img/company/carparts-com.jpg",
+        "location": "Remote",
+        "workType": "Fulltime",
+        "start": "Sep 2021",
+        "end": "Mar 2023",
+        "description": "Led discussions and integration of Snyk for SOC2 compliance with GitLab across hundreds of repositories. Modernized company authentication by integrating Microsoft Entra ID. Developed a full-stack application with React and Redux, hosted on AWS Lambda. Improved product catalog management using WebSockets and Node microservices on AWS Lambda. Created a Node API microservice on AWS EC2, enhancing customer satisfaction by 15%."
+    },
+    {
+        "job": "Lead Software Developer – DevOps",
+        "company": "Ethika Inc.",
+        "companyLogo": "img/company/ethika.jpg",
+        "location": "Remote",
+        "workType": "Fulltime",
+        "start": "Apr 2018",
+        "end": "Sep 2021",
+        "description": "Refactored orders and shipping systems using AWS Lambda and API Gateway. Integrated quality engineering standards into SDLC with CI/CD pipelines using GitHub Actions and AWS. Transitioned the website to a Single Page Application (SPA) with Vue.js, deployed on AWS S3 and CloudFront. Launched a React-Native app with AWS Lambda and AWS CloudWatch for real-time monitoring."
+    },
+    {
+        "job": "Lead Software Developer",
+        "company": "Utelogy Corporation",
+        "companyLogo": "img/company/utelogy.jpg",
+        "location": "Remote",
+        "workType": "Fulltime",
+        "start": "Nov 2016",
+        "end": "Apr 2018",
+        "description": "Integrated Utelogy’s software on Microsoft’s campus for Azure security. Architected U-Control 2.0, a C# and .NET-based MVC for AV/IoT device control. Deployed a remote dashboard on Azure App Services, leading to a 600% increase in adoption. Enhanced communication and scalability across devices using WebSocket sessions and SignalR."
+    },
+    {
+        "job": "Fullstack Software Developer",
+        "company": "Self Employed Software Consultant",
+        "companyLogo": "img/company/self-employed.jpg",
+        "location": "Remote",
+        "workType": "Consultant",
+        "start": "Sep 2009",
+        "end": "Jun 2016",
+        "description": "Communicated with clients to drive growth by leveraging new technologies like Redis caching on AWS EC2 and AWS Cloudfront. Developed and optimized scalable web applications for healthcare organizations, ensuring reliable access to services. Implemented .NET-based platforms for healthcare management at Prospect Medical Systems, enhancing coordinated care across hospitals and medical groups."
     }
-  ],
+],
   "education": [
     {
-      "college": "Harvard University",
-      "collegeLogo": "img/college/harvard.jpg",
-      "course": "Mathematics, law and computer science",
-      "start": "1973",
-      "end": "1975",
-      "url": "https://www.xpeducacao.com.br/pos-graduacao/desenvolvimento-front-end?evento=dev_summit"
+        "college": "Saddleback College",
+        "collegeLogo": "img/college/saddleback-college.jpg",
+        "course": "Certificate of Completion Web and Mobile Developer Bootcamp",
+        "start": "2015",
+        "end": "",
+        "url": "https://www.saddleback.edu"
     },
     {
-      "college": "Lakeside School",
-      "collegeLogo": "img/college/lakeside.jpg",
-      "course": "Technologist in Computer Networks, Network Management and Systems Security",
-      "start": "1963",
-      "end": "1973",
-      "url": ""
+        "college": "University High Irvine",
+        "collegeLogo": "img/college/university-high-irvine.jpg",
+        "course": "High School Diploma",
+        "start": "2004",
+        "end": "2009",
+        "url": "https://universityhigh.iusd.org/"
     }
-  ],
+],
   "volunteer": [
     {
-      "job": "Team Coordinator",
-      "company": "Green Peace",
-      "companyLogo": "img/company/green-peace.jpg",
-      "location": "New York",
-      "workType": "Remote",
-      "start": "January 2000",
+      "job": "Volunteer",
+      "company": "Orange County Coastkeeper",
+      "companyLogo": "img/company/beach-cleanup.jpg",
+      "location": "Costa Mesa",
+      "workType": "In-Person",
+      "start": "January 2010",
       "end": "Current",
-      "description": "Greenpeace is an independent global campaigning network that acts to change attitudes and behaviour, to protect and conserve the environment and to promote peace. It comprises 26 independent national/regional Greenpeace organisations with presence in over 55 countries across Europe, Africa, the Americas, Asia and the Pacific, as well as a coordinating and supporting organisation, Greenpeace International."
+      "description": "Volunteered at the Orange County Coastkeeper to help clean up the beach and sea. I was responsible for the general cleanup of the beach and sea. I also helped with the preparation of the beach for the summer."
     }
   ],
   "certificate": [
     {
+      "course": "AWS Cloud Practitioner Path Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "September 2022",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+  {
+      "course": "Python for Data Science Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "January 2021",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+  {
+      "course": "JavaScript Algorithms and Data Structures Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "June 2019",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+  {
+      "course": "Kubernetes Fundamentals Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "March 2020",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+  {
+      "course": "Advanced React Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "December 2018",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+  {
+      "course": "Full-Stack Engineer Career Path Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "August 2016",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+  {
+      "course": "DevOps Engineer Career Path Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "April 2023",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+  {
+      "course": "SQL and Relational Databases Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "October 2021",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+  {
+      "course": "Node.js and Express.js Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "July 2020",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+  {
+      "course": "Git and GitHub Certification",
+      "school": "Codecademy.com",
+      "schoolLogo": "img/college/codecademy.jpg",
+      "issueDate": "May 2017",
+      "expirationDate": "No expiration date",
+      "credentialCode": "",
+      "url": "https://www.codecademy.com"
+  },
+    {
       "course": "Microsoft Azure Data Engineering Associate (DP-203)",
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2000",
+      "issueDate": "Feb 2020",
       "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/professional-certificates/microsoft-azure-dp-203-data-engineering"
@@ -152,7 +280,7 @@
       "course": "Microsoft 365 Fundamentals",
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2001",
+      "issueDate": "Jan 2018",
       "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/specializations/microsoft-365-fundamentals"
@@ -161,7 +289,7 @@
       "course": "Microsoft Azure Fundamentals AZ-900 Exam Prep",
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2002",
+      "issueDate": "May 2018",
       "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/specializations/microsoft-azure-fundamentals-az-900"
@@ -170,7 +298,7 @@
       "course": "Microsoft Azure Data Scientist Associate (DP-100)",
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2003",
+      "issueDate": "Dec 2021",
       "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/professional-certificates/azure-data-scientist"
@@ -179,7 +307,7 @@
       "course": "Microsoft Azure AI Fundamentals AI-900 Exam Prep",
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2004",
+      "issueDate": "Jun 2023",
       "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals"
@@ -188,7 +316,7 @@
       "course": "Microsoft Azure Developer Associate (AZ-204)",
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2005",
+      "issueDate": "Jan 2021",
       "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/professional-certificates/azure-developer-associate"
@@ -197,7 +325,7 @@
       "course": "Work Smarter with Microsoft Excel",
       "school": "Coursera",
       "schoolLogo": "img/college/coursera.jpg",
-      "issueDate": "jan de 2006",
+      "issueDate": "Jun 2019",
       "expirationDate": "No expiration date",
       "credentialCode": "UC-99025927-6d24-4571-8110-44e310049ca1",
       "url": "https://www.coursera.org/learn/microsoft-excel-work-smarter"
