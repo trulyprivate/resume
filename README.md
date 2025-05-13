@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1253d926-46b1-435c-9a96-538d4b799868/deploy-status)](https://app.netlify.com/sites/brendancopley/deploys)
+
 <p align="center">
     <img src="preview/preview.png">
 </p>
