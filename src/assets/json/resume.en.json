@@ -3,15 +3,15 @@
     "name": "Brendan Copley",
     "job": "Lead DevOps Software Engineer",
     "avatar": "img/profile/me.jpg",
-    "aboutMe": "DevOps-Focused Full Stack Developer with with over 10 years of experience in leading high-impact software development and cloud infrastructure projects. Proud father and dedicated leader, adept at driving large-scale deployments, optimizing CI/CD pipelines, and implementing cutting-edge solutions across AWS and Azure environments. Recognized for successfully managing cross-functional teams and delivering award-winning projects. Passionate about mentoring, fostering collaboration, and continuously improving development processes to achieve business objectives.",
+    "aboutMe": "DevOps-Focused Engineering Leader with over 10 years of experience in software development, data automation, and cloud infrastructure projects. Skilled in Python, SQL, and JavaScript with deep expertise in AWS and CI/CD pipelines. Proven track record of leading high-performing engineering teams, implementing DataOps best practices, and architecting scalable solutions that drive business objectives. Passionate about mentoring junior developers, fostering cross-functional collaboration, and continuously improving development processes through automation and innovation.",
     "socialNetwork": [
       {
         "name": "github",
-        "url": "https://github.com/BrendanEthika"
+        "url": "https://github.com/brendancopley"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/williamhgates"
+        "url": "https://www.linkedin.com/in/brendancopley"
       },
       {
         "name": "kaggle",
@@ -29,38 +29,43 @@
     {
       "icon": "EnvelopeIcon",
       "name": "Mail address",
-      "value": "brendan@brendancopley.com"
+      "value": "brendancopley@protonmail.com"
     },
     {
       "icon": "DevicePhoneMobileIcon",
       "name": "Phone Number",
-      "value": "+1 (949) 288 8822"
+      "value": "+1 (949) 712-9612"
     }
   ],
   "skill": [
-    "C#",
+    "Python",
+    "SQL",
     "JavaScript",
-    "Angular",
-    "Vue",
-    "CSS",
-    "Tailwindcss",
-    "Dart",
-    "PHP",
     "TypeScript",
+    "Bash",
+    "PHP",
+    "C#",
+    "NestJS",
+    "Symfony",
+    "AWS Lambda",
+    "AWS EC2",
+    "AWS EKS",
+    "Snowflake",
+    "CI/CD",
+    "GitHub Actions",
+    "Infrastructure-as-Code",
+    "Redis",
+    "Elasticache",
+    "API Development",
+    "Data Pipelines",
+    "Vue",
+    "Angular",
     "Laravel",
-    "Flutter",
-    "AngularJS",
-    "Bootstrap",
-    "NodeJS",
-    "HTML",
-    "jQuery",
-    "Microsoft SQL",
-    "VS Code",
-    "IIS",
-    "Git",
-    "Windows",
-    "Internet Explorer",
-    "Insomnia"
+    "Azure",
+    "Docker",
+    "Kubernetes",
+    "Agile",
+    "Git"
   ],
   "language": [
     {
@@ -96,54 +101,44 @@
   ],
   "experience": [
     {
-        "job": "Lead DevOps Software Engineer",
-        "company": "Radfab Corporation",
-        "companyLogo": "img/company/radfab-corporation.jpg",
-        "location": "Remote",
-        "workType": "Consultant",
-        "start": "Mar 2023",
-        "end": "Present",
-        "description": "Worked with Amazon Prime Video and Bethesda during the Fallout TV series launch, deploying a video game with an on-prem MongoDb server for leaderboard management at the 2023 Brazilian Comic-Con CCXP. Delivered high-impact security by gathering and analyzing SOC2 business requirements in an Agile environment. Successfully integrated Algolia and GCP Google AI with Vue.js for a search similar to 'elasticsearch'. Collaborated on diverse development projects, including e-commerce sites using AWS CloudFormation, Docker containers, and AWS EKS Kubernetes."
-    },
-    {
-        "job": "Senior Software Engineer – DevOps",
-        "company": "CarParts.com",
-        "companyLogo": "img/company/carparts-com.jpg",
+        "job": "Senior Software Engineer",
+        "company": "Renaissance Learning",
+        "companyLogo": "img/company/renaissance-learning.jpg",
         "location": "Remote",
         "workType": "Fulltime",
-        "start": "Sep 2021",
-        "end": "Mar 2023",
-        "description": "Led discussions and integration of Snyk for SOC2 compliance with GitLab across hundreds of repositories. Modernized company authentication by integrating Microsoft Entra ID. Developed a full-stack application with React and Redux, hosted on AWS Lambda. Improved product catalog management using WebSockets and Node microservices on AWS Lambda. Created a Node API microservice on AWS EC2, enhancing customer satisfaction by 15%."
+        "start": "May 2023",
+        "end": "May 2025",
+        "description": "Created AI-driven lesson ingestion pipeline using Google Vertex AI and integrated with OpenAI to transform teacher's lessons into interactive activities. Developed Python utilities for ML fine-tuning processes, fixing the openai/evals repo to work with thinking models. Led a cross-functional team implementing standards for a 700k+ LOC monolith. Worked on microservice-based AI Agent SDK using JavaScript/TypeScript (NestJS). Created GitLab CI/CD automation workflows and developed a Python-based MCP Server for promptcrafting adopted by 30+ engineers."
     },
     {
-        "job": "Lead Software Developer – DevOps",
+        "job": "DevOps Consultant · Software Engineer",
+        "company": "Radfab",
+        "companyLogo": "img/company/radfab-corporation.jpg",
+        "location": "Laguna Niguel, CA",
+        "workType": "Consultant",
+        "start": "Mar 2015",
+        "end": "Present",
+        "description": "Architected Python backend server for a Fallout TV series companion game, collaborating with Amazon Prime Video & Bethesda. Implemented e-commerce digital asset management system for Carparts.com deployed with Jenkins on AWS EKS with Python microservices and Apache Kafka, achieving 500% increase in message processing. Developed Python automation scripts for data processing with AWS Snowflake. Created Python backend service for Arsonal.com with Algolia and Vertex AI visual search. Implemented data processing pipelines for multiple e-commerce platforms."
+    },
+    {
+        "job": "Senior Web Developer · DevOps",
         "company": "Ethika Inc.",
         "companyLogo": "img/company/ethika.jpg",
-        "location": "Remote",
+        "location": "Lake Forest, CA",
         "workType": "Fulltime",
         "start": "Apr 2018",
-        "end": "Sep 2021",
-        "description": "Refactored orders and shipping systems using AWS Lambda and API Gateway. Integrated quality engineering standards into SDLC with CI/CD pipelines using GitHub Actions and AWS. Transitioned the website to a Single Page Application (SPA) with Vue.js, deployed on AWS S3 and CloudFront. Launched a React-Native app with AWS Lambda and AWS CloudWatch for real-time monitoring."
+        "end": "May 2023",
+        "description": "Owned technical roadmap for order and shipping systems, implementing AWS Lambda + API Gateway solution with 250% performance improvement. Led cross-functional meetings aligning development with business needs. Mentored junior engineers and established code review processes. Implemented Redis caching strategies and Python automation scripts. Migrated frontend to AWS S3/CloudFront and created CI/CD pipelines using GitHub Actions. Developed a Vue.js SPA and React-Native app with AWS integrations. Created comprehensive documentation for SOC 2 readiness."
     },
     {
         "job": "Lead Software Developer",
         "company": "Utelogy Corporation",
         "companyLogo": "img/company/utelogy.jpg",
-        "location": "Remote",
+        "location": "Costa Mesa, CA",
         "workType": "Fulltime",
         "start": "Nov 2016",
         "end": "Apr 2018",
-        "description": "Integrated Utelogy’s software on Microsoft’s campus for Azure security. Architected U-Control 2.0, a C# and .NET-based MVC for AV/IoT device control. Deployed a remote dashboard on Azure App Services, leading to a 600% increase in adoption. Enhanced communication and scalability across devices using WebSocket sessions and SignalR."
-    },
-    {
-        "job": "Fullstack Software Developer",
-        "company": "Self Employed Software Consultant",
-        "companyLogo": "img/company/self-employed.jpg",
-        "location": "Remote",
-        "workType": "Consultant",
-        "start": "Sep 2009",
-        "end": "Jun 2016",
-        "description": "Communicated with clients to drive growth by leveraging new technologies like Redis caching on AWS EC2 and AWS Cloudfront. Developed and optimized scalable web applications for healthcare organizations, ensuring reliable access to services. Implemented .NET-based platforms for healthcare management at Prospect Medical Systems, enhancing coordinated care across hospitals and medical groups."
+        "description": "Provided technical leadership to junior developers through mentoring and code reviews. Integrated Utelogy's software on Microsoft's campus for Azure security team, enabling control of 100+ monitors as a video wall. Led architecture of U-Control 2.0, a C# and .NET-based MVC for AV/IoT device control. Deployed component-based frontend on Azure App Services, achieving 600% adoption increase across 300+ schools in Southern California. Optimized SQL queries and implemented comprehensive testing strategies for device integration."
     }
 ],
   "education": [
@@ -185,8 +180,8 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
-  {
+    },
+    {
       "course": "Python for Data Science Certification",
       "school": "Codecademy.com",
       "schoolLogo": "img/college/codecademy.jpg",
@@ -194,8 +189,8 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
-  {
+    },
+    {
       "course": "JavaScript Algorithms and Data Structures Certification",
       "school": "Codecademy.com",
       "schoolLogo": "img/college/codecademy.jpg",
@@ -203,8 +198,8 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
-  {
+    },
+    {
       "course": "Kubernetes Fundamentals Certification",
       "school": "Codecademy.com",
       "schoolLogo": "img/college/codecademy.jpg",
@@ -212,8 +207,8 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
-  {
+    },
+    {
       "course": "Advanced React Certification",
       "school": "Codecademy.com",
       "schoolLogo": "img/college/codecademy.jpg",
@@ -221,8 +216,8 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
-  {
+    },
+    {
       "course": "Full-Stack Engineer Career Path Certification",
       "school": "Codecademy.com",
       "schoolLogo": "img/college/codecademy.jpg",
@@ -230,8 +225,8 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
-  {
+    },
+    {
       "course": "DevOps Engineer Career Path Certification",
       "school": "Codecademy.com",
       "schoolLogo": "img/college/codecademy.jpg",
@@ -239,8 +234,8 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
-  {
+    },
+    {
       "course": "SQL and Relational Databases Certification",
       "school": "Codecademy.com",
       "schoolLogo": "img/college/codecademy.jpg",
@@ -248,8 +243,8 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
-  {
+    },
+    {
       "course": "Node.js and Express.js Certification",
       "school": "Codecademy.com",
       "schoolLogo": "img/college/codecademy.jpg",
@@ -257,8 +252,8 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
-  {
+    },
+    {
       "course": "Git and GitHub Certification",
       "school": "Codecademy.com",
       "schoolLogo": "img/college/codecademy.jpg",
@@ -266,7 +261,7 @@
       "expirationDate": "No expiration date",
       "credentialCode": "",
       "url": "https://www.codecademy.com"
-  },
+    },
     {
       "course": "Microsoft Azure Data Engineering Associate (DP-203)",
       "school": "Coursera",
@@ -350,5 +345,14 @@
       "forks": "11.1k",
       "url": "https://github.com/microsoft/TypeScript"
     }
+  ],
+  "awards": [
+    {
+      "name": "Bronze - Clios Digital Entertainment",
+      "date": "December 2023",
+      "issuer": "Clios",
+      "description": "Award for theatrical film digital/mobile work",
+      "url": "https://clios.com/entertainment/winner/theatrical-film-digital-mobile/lionsgate/sisu-151210"
+    }
   ]
-}
+} 
