@@ -14,6 +14,10 @@
         "url": "https://www.linkedin.com/in/brendancopley"
       },
       {
+        "name": "huggingface",
+        "url": "https://huggingface.co/parole-study-viper"
+      },
+      {
         "name": "kaggle",
         "url": "https://www.kaggle.com/brendanco"
       }
@@ -328,22 +332,58 @@
   ],
   "project": [
     {
-      "name": "Visual Studio Code",
-      "description": "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.",
-      "language": "Typescript",
-      "image": "img/project/vscode.png",
-      "stars": "+138k",
-      "forks": "23.8k",
-      "url": "https://github.com/microsoft/vscode"
+      "name": "OpenAI Evals for Thinking Models",
+      "description": "Modified and extended OpenAI's evaluation framework to support 'thinking models' like o3-mini that expose their reasoning process. The original framework was incompatible with these newer models that include thinking/reasoning steps in their output. Implemented specialized parsing logic and evaluation metrics that properly handle and assess multi-step reasoning patterns, making the framework usable for modern AI research and development with reflective reasoning capabilities.",
+      "language": "Python",
+      "image": "img/project/openai.png",
+      "stars": "",
+      "forks": "",
+      "url": "https://github.com/brendancopley/evals"
     },
     {
-      "name": "TypeScript",
-      "description": "TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to readable, standards-based JavaScript.",
-      "language": "Typescript",
-      "image": "img/project/typescript.png",
-      "stars": "+85.3k",
-      "forks": "11.1k",
-      "url": "https://github.com/microsoft/TypeScript"
+      "name": "MCP Chain of Draft Prompt Tool",
+      "description": "Developed an open-source Model Context Protocol (MCP) tool that enhances LLM reasoning by implementing the Chain of Draft approach. The tool transforms standard prompts into CoD format, significantly improving reasoning quality while reducing token usage by up to 92.4%. Features include BYOLLM support for various models (Claude, GPT, Ollama, local models), performance analytics, adaptive word limits, and comprehensive example databases.",
+      "language": "Python/TypeScript",
+      "image": "img/project/chain-of-draft.png",
+      "stars": "",
+      "forks": "",
+      "url": "https://github.com/brendancopley/mcp-chain-of-draft-prompt-tool"
+    },
+    {
+      "name": "MCP Tool-Use with Ollama",
+      "description": "Developed and published a comprehensive guide on implementing the Model Context Protocol (MCP) with open-source AI models. Created a system that integrates Ollama, Dive, and custom fetch tools to enable local AI agents to interact with web content. This privacy-focused solution keeps all data on the local machine while enabling powerful tool use capabilities for open-source models, eliminating dependency on external API services.",
+      "language": "JavaScript/Node.js",
+      "image": "img/project/mcp-tool.png",
+      "stars": "",
+      "forks": "",
+      "url": "https://medium.com/renaissance-learning-r-d/mcp-tool-use-with-ollama-to-empower-your-local-ai-agents-1f12df974982"
+    },
+    {
+      "name": "Fallout TV Series Companion Game",
+      "description": "Architected the Python backend server for a companion game for Amazon Prime Video's Fallout TV series featured at CCXP (Comic Con Experience). Developed in collaboration with Amazon Prime Video and Bethesda Game Studios, this interactive experience extended the Fallout universe for fans attending the event. Collaborated with Jeremy Walker to create the frontend of the game.",
+      "language": "Python",
+      "image": "img/project/fallout-ccxp.png",
+      "stars": "",
+      "forks": "",
+      "url": "https://jeremywalkerportfolio.com/work/Fallout-CCXP"
+    },
+    {
+      "name": "Content Moderation Vulgarity Filter",
+      "description": "Fine-tuned Qwen2.5 to create a specialized content moderation model that accurately identifies and filters inappropriate content. The model evaluates text for vulgarity, profanity, and harmful content while maintaining context awareness to reduce false positives. Optimized for efficiency and low latency, making it suitable for real-time content moderation in applications, chatbots, and social platforms without requiring cloud-based moderation services.",
+      "language": "Python/MLX",
+      "image": "img/project/huggingface.png",
+      "stars": "",
+      "forks": "",
+      "url": "https://huggingface.co/parole-study-viper/vulgarity-filter"
+    },
+    {
+      "name": "Speech-to-SQL Fine-tuned LLM",
+      "description": "Fine-tuned Qwen2.5-14B to create a specialized model that converts natural language queries into SQL statements. This custom model bridges the gap between conversational speech and database queries, enabling non-technical users to interact with databases using natural language. Optimized for MLX runtime on Apple Silicon, making it efficient for local deployment without requiring cloud API services.",
+      "language": "Python/SQL",
+      "image": "img/project/huggingface.png",
+      "stars": "",
+      "forks": "",
+      "url": "https://huggingface.co/parole-study-viper/speech-to-sql"
     }
   ],
   "awards": [
